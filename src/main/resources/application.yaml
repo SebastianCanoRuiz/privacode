@@ -1,0 +1,9 @@
+utils:
+  privacode:
+    sensitive-headers: Company-Name,Company-Id,Doc,Num,User-Id,Ip
+    mask-value: *
+    min-length: 5
+    keep-start: true
+    keep-start-count: 2
+    keep-end: true
+    keep-end-count: 2
